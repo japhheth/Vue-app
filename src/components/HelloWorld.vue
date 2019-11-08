@@ -9,7 +9,7 @@
            <app-user :name="name"></app-user>
         </div>
         <div class="col-sm-6">
-           <app-detail></app-detail>
+           <app-detail :name="name"></app-detail>
         </div>
       </div> 
   </div>
