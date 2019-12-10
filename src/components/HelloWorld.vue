@@ -6,7 +6,7 @@
         <hr>
       <div class="row">
         <div class="col-sm-6">
-           <app-user :name="name"></app-user>
+           <app-user :name="name" @nameWasReset="name = $event"></app-user>
         </div>
         <div class="col-sm-6">
            <app-detail :name="name"></app-detail>
